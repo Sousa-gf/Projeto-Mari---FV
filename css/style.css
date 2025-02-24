@@ -15,7 +15,6 @@
 
 header{
     width: 100%;
-    height: 685px;
     background-color: #d66700;
     background-image: url(img/BG-LP-MARI.png);
 }
@@ -652,7 +651,6 @@ footer{
 @media screen and (max-width: 1024px) {
     header{
         width: 100%;
-        height: 100vh;
         background-color: #d66700;
         background-image: url(img/BG-LP-MARI.png);
     }
@@ -672,6 +670,7 @@ footer{
     }
     
     .texto-cabecalho{
+        margin-bottom: 151px;
         padding: 130px 0px 0px 105px;
         text-align: left;
         color: white;
@@ -777,7 +776,7 @@ footer{
     
     #img-parallax-1{
         width: 100%;
-        height: 55%;
+        height: 45%;
         margin: 3% 0%;
         position: absolute;
         background-image: url(img/Vegetais/ABO02_LP.png);
@@ -790,7 +789,7 @@ footer{
     
     #img-parallax-2{
         width: 100%;
-        height: 55%;
+        height: 45%;
         margin: 3% 0%;
         position: absolute;
         background-image: url(img/Vegetais/BROCO01_LP.png);
@@ -803,7 +802,7 @@ footer{
     
     #img-parallax-3{
         width: 100%;
-        height: 55%;
+        height: 45%;
         margin: 3% 0%;
         position: absolute;
         background-image: url(img/Vegetais/CEN\ 01_LP.png);
@@ -1330,6 +1329,7 @@ footer{
     }
     
     .texto-cabecalho{
+        margin-bottom: 363px;
         padding: 75px 85px 0 100px;
         text-align: left;
         color: white;
@@ -1392,7 +1392,7 @@ footer{
     }
     
     .texto-conteudo{
-        width: 52%;
+        width: 45%;
         color: #777777;
         font-family: "Montserrat";
         padding: 10px 0px 50px 380px;
