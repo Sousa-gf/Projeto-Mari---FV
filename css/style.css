@@ -2608,15 +2608,15 @@ footer{
     /* Conteudo do Header*/
     .cabecalho{
         display: flex;
-        width: 50%;
+        width: 100%;
     }
     
     .img-cabecalho{
-        position: absolute;
         transform: scale(0.5);
         transform-origin: bottom;
-        margin: 0px;
-        left: 0;
+        width: 50%; /* ou 50% do tamanho original */
+        display: block;
+        margin: 0 200px;
     }
     
     .texto-cabecalho{
@@ -2678,18 +2678,18 @@ footer{
     .img-conteudo{
         position: absolute;
         transform-origin: left;
-        transform: scale(0.8);
+        transform: scale(0.6);
         padding: 0px;
         left: 0;
-        margin-left: 25px;
+        margin-left: 45px;
         margin-top: 590px;
     }
     
     .texto-conteudo{
-        width: 80%;
+        width: 100%;
         color: #777777;
         font-family: "Montserrat";
-        padding: 50px 0px 350px 50px;
+        padding: 50px 25px 350px 25px;
         line-height: 22px;
     }
     
@@ -2713,7 +2713,7 @@ footer{
 
     .texto-parallax{
         background-color: #F28705;
-        margin: 150px 4.5%;
+        margin: 50px 4.5% 50px 4.5%;
         padding: 60px 10%;
         display: inline-block;
         border-radius: 15px;
@@ -2808,7 +2808,7 @@ footer{
     .forma-trabalho{
         width: 100%;
         background-color: #FFFAF3;
-        padding-bottom: 200px;
+        padding-bottom: 300px;
     }
     
     .lista-forma-trabalho h1{
@@ -2816,7 +2816,7 @@ footer{
         color: #000000;
         padding: 0 0 20px 0;
         line-height: 30px;
-        width: 60%;
+        width: 100%;
     }
     
     .lista-forma-trabalho ul{
@@ -2838,13 +2838,13 @@ footer{
         position: absolute;
         border-radius: 50%;
         right: 50px;
-        margin-top: 570px;
+        margin-top: 670px;
     }
     
     .img-forma-trabalho{
         position: absolute;
         right: 10px;
-        padding-top: 290px;
+        padding-top: 430px;
     }
     
     /* Quarta Section "Meus Serviços" */
@@ -2862,14 +2862,15 @@ footer{
     }
     
     .meus-servicos{
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         font-family: "Montserrat";
-        margin: 50px 0px 0px 20px;
+        margin: 50px 0px 0px 5px;
     }
     
     .meus-servicos div{
-        width: 35%;
+        width: 32%;
         padding: 20px 25px;
         background-color: #FFFAF3;
         border: 1px solid;
@@ -2897,14 +2898,15 @@ footer{
     }
     
     .meus-servicos-2{
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         font-family: "Montserrat";
-        margin: 0px 0px 20px 20px;
+        margin: 0px 0px 20px 5px;
     }
     
     .meus-servicos-2 div{
-        width: 35%;
+        width: 32%;
         padding: 20px 25px;
         background-color: #FFFAF3;
         border: 1px solid;
@@ -2920,13 +2922,13 @@ footer{
     
     .meus-servicos-2 div h2{
         color: #212121;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 20px;
         margin: 0 0 5px 0;
     }
     
     .meus-servicos-2 div p{
-        font-size: 15px;
+        font-size: 11px;
         color: #212121;
         line-height: 20px;
     }
@@ -2936,7 +2938,7 @@ footer{
     .c-f-m-c-{
         background-color: #FFFAF3;
         display: flex;
-        padding: 50px 25px;
+        padding: 50px 0px;
     }
     
     .div-cfmc{
@@ -2950,7 +2952,7 @@ footer{
     
     .c-f-m-c- h1{
         font-family: "Montserrat";
-        font-size: 40px;
+        font-size: 35px;
         text-align: start;
         padding: 0 0 40px 0;
         width: 80%;
@@ -2960,7 +2962,7 @@ footer{
         font-family: "Montserrat";
         display: inline-flex;
         line-height: 23px;
-        width: 480px;
+        width: 412px;
     }
     
     .lista-cfmc div{
@@ -2985,7 +2987,7 @@ footer{
         font-family: "Montserrat";
         display: inline-flex;
         line-height: 23px;
-        width: 480px;
+        width: 412px;
     }
     
     .lista-cfmc-2 div{
@@ -3006,6 +3008,7 @@ footer{
     }
 
     .img-cfmc{
+        transform: scale(0.6);
         position: absolute;
         transform-origin: left;
         margin: 750px 0 0 0;
@@ -3017,7 +3020,7 @@ footer{
     .animacao-js{
         background-color: #FFFAF3;
         display: flex;
-        padding: 0px 25px;
+        padding: 0px 15px;
     }
     
     .doguinho{
@@ -3026,15 +3029,15 @@ footer{
         font-family: "Montserrat";
         background-color: #F28705;
         border-radius: 20px;
-        padding: 30px 75px;
+        padding: 30px 95px;
         font-size: 25px;
-        transform: scale(0.7);
+        transform: scale(0.6);
         transform-origin: left;
     }
     
     .doguinho img{
-        padding: 0 20%;
-        transform: scale(0.8);
+        padding: 0 13%;
+        transform: scale(0.7);
     }
     
     .doguinho h1{
@@ -3048,20 +3051,20 @@ footer{
     
     .planeta{
         width: 30%;
-        margin: 0px 20px 50px 220px;
+        margin: 0px 20px 50px 190px;
         font-family: "Montserrat";
         background-color: #F28705;
         border-radius: 20px;
-        padding: 30px 75px;
+        padding: 30px 95px;
         font-size: 25px;
-        transform: scale(0.7);
+        transform: scale(0.6);
         transform-origin: left;
         position: absolute;
     }
     
     .planeta img{
-        padding: 0 20%;
-        transform: scale(0.8);
+        padding: 0 13%;
+        transform: scale(0.7);
     }
     
     .planeta h1{
@@ -3084,11 +3087,11 @@ footer{
         font-family: "Montserrat";
         font-size: 30px;
         width: 100%;
-        margin: 50px 100px;
+        margin: 50px 70px;
     }
     
     .card-m-a{
-        width: 25%;
+        width: 22%;
         margin: 50px 20px;
         line-height: 22px;
     }
@@ -3111,11 +3114,11 @@ footer{
     .depoimentos{
         font-family: "Montserrat";
         background-color: #FFFAF3;
-        line-height: 45px;
+        line-height: 25px;
     }
     
     .dep-1{
-        margin: 0px 90px;
+        margin: 0px 40px;
         padding: 50px 0px;
     }
     
@@ -3126,7 +3129,8 @@ footer{
     
     .depoimentos h1{
         font-size: 48px;
-        margin-top: 50px;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
     
     .depoimentos p{
@@ -3204,9 +3208,9 @@ footer{
     }
     
     .cau-conteudo{
-        width: 80%;
-        margin: 0px 50px;
-        padding: 150px 0 0 0px;
+        width: 100%;
+        margin: 0px 20px;
+        padding: 50px 0px;
     }
     
     .cau-conteudo h1{
@@ -3225,8 +3229,8 @@ footer{
     }
     
     .cau-img{
-        padding: 10%;
-        transform: scale(0.8);
+        padding: 0 22%;
+        transform: scale(0.6);
         transform-origin: left;
     }
     
@@ -3238,11 +3242,11 @@ footer{
     }
     
     .logo-footer{
-        margin: 70px 20% 0 20%;
+        margin: 70px 20% 0 15%;
     }
     
     .div-footer{
-        margin: 30px 20% 80px 25%;
+        margin: 30px 10% 80px 20%;
     }
     
     .icons-footer{
