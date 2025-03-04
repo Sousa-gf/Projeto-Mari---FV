@@ -1,17 +1,8 @@
-@font-face {
-    font-family: "Poppins";
-    src: url(Fontes/Poppins);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-@font-face {
-    font-family: "Montserrat";
-    src: url(Fontes/Montserrat/static/);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-@font-face {
-    font-family: "Roboto";
-    src: url(Fontes/roboto/);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 header{
     width: 100%;
@@ -2602,6 +2593,12 @@ footer{
 
 @media screen and (max-width: 480px) {
 
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Esconde qualquer coisa que passe da largura da tela */
+    }
+
     header{
         width: 100%;
         height: 685px;
@@ -2625,7 +2622,8 @@ footer{
     }
     
     .texto-cabecalho{
-        padding: 25px 65px 0 55px;
+        width: 100%;
+        padding: 25px 0px 0 45px;
         text-align: left;
         color: white;
         display: inline-block;
@@ -2686,8 +2684,8 @@ footer{
         transform: scale(0.6);
         padding: 0px;
         left: 0;
-        margin-left: 45px;
-        margin-top: 590px;
+        margin-left: 25px;
+        margin-top: 690px;
     }
     
     .texto-conteudo{
@@ -2699,7 +2697,7 @@ footer{
     }
     
     .texto-conteudo h1{
-        font-size: 48px;
+        font-size: 44px;
     }
     
     .texto-conteudo p{
@@ -2813,7 +2811,7 @@ footer{
     .forma-trabalho{
         width: 100%;
         background-color: #FFFAF3;
-        padding-bottom: 300px;
+        padding-bottom: 350px;
     }
     
     .lista-forma-trabalho h1{
@@ -2834,7 +2832,7 @@ footer{
         color: #777777;
         font-family: "Montserrat";
         line-height: 22px;
-        margin: 0px 50px 0px 50px;
+        margin: 0px 0px 0px 50px;
     }
     
     .circulo-laranja{
@@ -2843,13 +2841,13 @@ footer{
         position: absolute;
         border-radius: 50%;
         right: 50px;
-        margin-top: 670px;
+        margin-top: 720px;
     }
     
     .img-forma-trabalho{
         position: absolute;
         right: 10px;
-        padding-top: 430px;
+        padding-top: 502px;
     }
     
     /* Quarta Section "Meus Serviços" */
@@ -2944,12 +2942,12 @@ footer{
         background-color: #FFFAF3;
         display: flex;
         padding: 50px 0px;
+        width: 100%;
     }
     
     .div-cfmc{
-        width: 100%;
-        padding: 15px;
-        margin: 0px 0 600px 0;
+        width: 90%;
+        margin: 0px 0 300px 0;
     }
     
     .div-cfmc button{
@@ -2958,21 +2956,21 @@ footer{
     
     .c-f-m-c- h1{
         font-family: "Montserrat";
-        font-size: 35px;
+        font-size: 30px;
         text-align: start;
-        padding: 0 0 40px 0;
-        width: 80%;
+        padding: 0 0 50px 0;
+        width: 100%;
     }
     
     .lista-cfmc{
         font-family: "Montserrat";
         display: inline-flex;
         line-height: 23px;
-        width: 412px;
+        width: 100%;
     }
     
     .lista-cfmc div{
-        margin-right: 50px;
+        margin-right: 35px;
     }
     
     .lista-cfmc h2{
@@ -2993,11 +2991,11 @@ footer{
         font-family: "Montserrat";
         display: inline-flex;
         line-height: 23px;
-        width: 412px;
+        width: 100%;
     }
     
     .lista-cfmc-2 div{
-        margin-right: 40px;
+        margin-right: 35px;
     }
     
     .lista-cfmc-2 h2{
@@ -3014,7 +3012,7 @@ footer{
     }
 
     .img-cfmc{
-        transform: scale(0.6);
+        transform: scale(0.55);
         position: absolute;
         transform-origin: left;
         margin: 750px 0 0 0;
@@ -3037,7 +3035,7 @@ footer{
         border-radius: 20px;
         padding: 30px 95px;
         font-size: 25px;
-        transform: scale(0.6);
+        transform: scale(0.5);
         transform-origin: left;
     }
     
@@ -3063,7 +3061,7 @@ footer{
         border-radius: 20px;
         padding: 30px 95px;
         font-size: 25px;
-        transform: scale(0.6);
+        transform: scale(0.5);
         transform-origin: left;
         position: absolute;
     }
@@ -3093,13 +3091,14 @@ footer{
         font-family: "Montserrat";
         font-size: 30px;
         width: 100%;
-        margin: 50px 70px;
+        margin: 50px 50px;
     }
     
     .card-m-a{
-        width: 22%;
-        margin: 50px 20px;
+        width: 30%;
+        margin: 50px 0px 0 5px;
         line-height: 22px;
+        transform: scale(0.7);
     }
     
     .card-m-a h2{
@@ -3134,7 +3133,7 @@ footer{
     }
     
     .depoimentos h1{
-        font-size: 48px;
+        font-size: 40px;
         margin-top: 40px;
         margin-bottom: 20px;
     }
@@ -3211,6 +3210,10 @@ footer{
     .cada-animal-unico{
         background-color: #F28705;
         display: flex;
+        flex-wrap: wrap; /* Impede que os itens ultrapassem os limites */
+        max-width: 100%;
+        overflow: hidden;
+        min-width: 0;
     }
     
     .cau-conteudo{
@@ -3234,12 +3237,13 @@ footer{
         margin: 15px 28px 15px 0px;
     }
     
-    .cau-img{
-        padding: 0 22%;
-        transform: scale(0.6);
-        transform-origin: left;
-        width: 100%;
-    }
+    .cau-img img{
+        padding: 0; /* Removendo padding lateral */
+        max-width: 100%;
+        height: auto;
+        display: block;
+        transform-origin: center;
+        }
     
     /* Footer */
     
@@ -3247,9 +3251,10 @@ footer{
         flex-wrap: wrap;
     }
     
-    .logo-footer{
+    .logo-footer img{
         margin: 70px 0 0 15%;
         width: 100%;
+        transform: scale(1.3);
     }
     
     .div-footer{
