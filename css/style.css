@@ -1285,6 +1285,12 @@ footer{
 }
 
 @media screen and (max-width: 1024px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Esconde qualquer coisa que passe da largura da tela */
+    }
+
     header{
         width: 100%;
         background-color: #d66700;
@@ -1945,6 +1951,12 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Esconde qualquer coisa que passe da largura da tela */
+    }
+
     header{
         width: 100%;
         background-color: #d66700;
