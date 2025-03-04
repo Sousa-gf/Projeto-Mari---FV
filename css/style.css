@@ -2685,7 +2685,7 @@ footer{
         padding: 0px;
         left: 0;
         margin-left: 25px;
-        margin-top: 690px;
+        margin-top: 630px;
     }
     
     .texto-conteudo{
@@ -3035,7 +3035,7 @@ footer{
         border-radius: 20px;
         padding: 30px 95px;
         font-size: 25px;
-        transform: scale(0.5);
+        transform: scale(0.55);
         transform-origin: left;
     }
     
@@ -3061,7 +3061,7 @@ footer{
         border-radius: 20px;
         padding: 30px 95px;
         font-size: 25px;
-        transform: scale(0.5);
+        transform: scale(0.55);
         transform-origin: left;
         position: absolute;
     }
